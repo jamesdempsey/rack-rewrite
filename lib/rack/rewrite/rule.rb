@@ -254,7 +254,6 @@ module Rack
         end
 
         def redirect_message(location)
-          %Q(Redirecting to <a href="#{location}">#{location}</a>)
         end
     end
   end
